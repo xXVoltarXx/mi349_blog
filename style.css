@@ -1,0 +1,75 @@
+html
+{
+    background: #3d3d3d;
+}
+
+header
+{
+    position:sticky;
+    top: 0px;
+    background-color: #fff;
+    padding: 10px;
+    border: 5px;
+}
+body
+{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 40px;
+    color: #242424;
+    border-top: 10px solid #242424;
+    background: #fff;
+
+}
+
+h1
+{
+    font-size: 3em;
+    margin: 0px;
+}
+
+h2
+{
+    position: static;
+}
+
+p
+{
+    line-height: 1.4em;
+}
+
+a[em]
+{
+    color: green;
+}
+
+#blog
+{
+    border-top: 1px dotted #9b9b9b;
+    display: flex;
+}
+
+.blog-post
+{
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+    border-bottom: 1px dotted #9b9b9b;
+    
+}
+
+#newsletter
+{
+    background-color: #fff;
+    padding: 10px;
+    border: 5px;
+    text-align: center; 
+}
+
+#about
+{
+    border-top: 1px dotted #9b9b9b;
+    display: flex;
+    flex: 1;
+    padding: 10px;
+}
