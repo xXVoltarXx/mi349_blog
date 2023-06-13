@@ -11,6 +11,7 @@ header
     padding: 10px;
     border: 5px;
 }
+
 body
 {
     font-family:Arial, Helvetica, sans-serif;
@@ -34,9 +35,58 @@ h2
     text-align: center;
 }
 
+h3
+{
+    text-align: center;
+}
+
 p
 {
     line-height: 1.4em;
+}
+
+time
+{
+    font-size:large;
+    text-align: left;
+    color: #00d9ff
+}
+
+table 
+{
+    text-align: center;
+    border: 1px solid;
+}
+
+th
+{
+    color: orange;
+    text-align: center;
+    border: 1px solid;
+}
+
+tr
+{
+    background-color: black;
+}
+
+td
+{
+    color: red;
+    text-align: center;
+    border: 1px solid;
+}
+
+form
+{
+    line-height: 2.5em;
+}
+
+.author
+{
+    font-size:large;
+    text-align: left;
+    color: orange
 }
 
 img[src$=".jpg"] 
