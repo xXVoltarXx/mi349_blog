@@ -82,6 +82,12 @@ form
     line-height: 2.5em;
 }
 
+figcaption
+{
+    text-align: center;
+    opacity: .5;
+}
+
 .author
 {
     font-size:large;
