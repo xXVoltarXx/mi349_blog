@@ -31,6 +31,7 @@ h1
 h2
 {
     position: static;
+    text-align: center;
 }
 
 p
@@ -38,9 +39,16 @@ p
     line-height: 1.4em;
 }
 
-a[em]
+img[src$=".jpg"] 
 {
-    color: green;
+    display: float;
+    float: right;
+}
+
+img[src$=".png"] 
+{
+    display: float;
+    float: right;
 }
 
 #blog
